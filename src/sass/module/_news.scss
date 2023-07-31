@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.news__list{
+    margin-top: rem(32);
+}
+
+.news__item + .news__item{
+    margin-top: rem(40);
+}

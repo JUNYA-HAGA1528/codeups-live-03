@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.service{
+
+}
+
+.service__list{
+    margin-top: rem(32);
+}
+
+.service__item + .service__item{
+    margin-top: rem(40);
+}

@@ -1,0 +1,66 @@
+@use "global" as *;
+
+.mv{
+    position: relative;
+    height: 100vh;
+    background-image: url(https://pon-design.netlify.app/img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mv__inner{
+    // padding: 0 rem(30) 0 rem(50);
+}
+
+.mv__header{
+    position: absolute;
+    top: 50%;
+    left: rem(50);
+    transform: translateY(-50%);
+    color: $white;
+}
+
+.mv__title{
+    font-size: rem(48);
+    font-weight:$bold;
+    line-height: calc(62/48);
+}
+
+.mv__subtitle{
+    margin-top: rem(20);
+    font-size: rem(16);
+    line-height: calc(29/16);
+    letter-spacing: 0.108em;
+}
+
+.mv__btn{
+    margin-top: rem(50);
+}
+
+.mv__scroll{
+    font-size: rem(12);
+    letter-spacing: 0.08em;
+    font-weight: $bold;
+    color: $white;
+    display: inline-block;
+    position: absolute;
+    right: rem(0);
+    bottom: rem(70);
+    transform: rotate(90deg);
+}
+
+.mv__scroll span {
+    position: relative;
+}
+
+.mv__scroll span::before {
+    position: absolute;
+    content: "";
+    width: rem(1);
+    height: rem(50);
+    background-color: $white;
+    right: rem(-35);
+    bottom: rem(-18);
+    transform: rotate(90deg);
+}

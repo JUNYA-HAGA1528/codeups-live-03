@@ -1,0 +1,42 @@
+@use "global" as *;
+
+.works{
+
+}
+
+.works__images{
+    position: relative;
+}
+
+.works__img img{
+    aspect-ratio: 335/231;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.works__text-body{
+    background-color: #f0f0f0;
+    width: 100vw;
+    margin-top: rem(-116);
+    margin-left: calc(50% - 50vw);
+    padding-top: rem(156);
+    padding-bottom: rem(60);
+}
+
+.works__text-block{
+    margin-top: rem(30);
+}
+
+.works__text{
+    text-align: center;
+    font-size: rem(14);
+    font-weight: 300;
+    line-height: 1.79;
+    letter-spacing: 0.05em;
+}
+
+.works__btn{
+    margin-top: rem(30);
+    text-align: center;
+}

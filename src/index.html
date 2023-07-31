@@ -24,10 +24,12 @@
     
     
     <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script defer src="./assets/js/script.js"></script>
 
 </head>
@@ -68,7 +70,7 @@
                 </ul>
             </nav>
 
-            <div class="header__sp-nav sp-nav js-sp-nav is-active" >
+            <div class="header__sp-nav sp-nav js-sp-nav" >
                 <ul class="sp-nav__list">
                     <li class="sp-nav__item">
                         <a href="">NEWS</a>
@@ -93,26 +95,200 @@
         </div>
     </header>
 
+
+    <section class="mv">
+        <div class="mv__inner">
+            <div class="mv__header">
+                <h2 class="mv__title">WEB<br>DESIGN<br>SPECIALIST</h2>
+                <p class="mv__subtitle">お客様の夢を叶える<br>Webサイトを制作</p>
+                <div class="mv__btn">
+                    <a href="" class="btn">CONTACT</a>
+                </div>
+            </div>
+            <div class="mv__scroll"><span>SCROLL</span></div>
+        </div>
+    </section>
+
     
+    <section class="top-news news">
+        <div class="news__inner inner">
+            <div class="news__title section-header">
+                <h2 class="section-header__title">NEWS</h2>
+                <p class="section-header__subtitle">お知らせ</p>
+            </div>
+
+            <ul class="news__list">
+                <li class="news__item news-content">
+                    <div class="news-content__meta">
+                        <time class="news-content__date">2022.3.4</time>
+                        <p class="news-content__category">お知らせ</p>
+                    </div>
+                    <div class="news-content__link">
+                        <p class="news-content__text">
+                            Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+                        </p>
+                    </div>
+                </li>
+
+                <li class="news__item news-content">
+                    <div class="news-content__meta">
+                        <time class="news-content__date">2022.3.4</time>
+                        <p class="news-content__category">お知らせ</p>
+                    </div>
+                    <div class="news-content__link">
+                        <p class="news-content__text">
+                            Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+                        </p>
+                    </div>
+                </li>
+
+                <li class="news__item news-content">
+                    <div class="news-content__meta">
+                        <time class="news-content__date">2022.3.4</time>
+                        <p class="news-content__category">お知らせ</p>
+                    </div>
+                    <div class="news-content__link">
+                        <p class="news-content__text">
+                            Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="top-service service">
+        <div class="service__inner inner">
+            <div class="service__title section-header">
+                <h2 class="section-header__title">SERVICE</h2>
+                <p class="section-header__subtitle">事業内容</p>
+            </div>
+
+            <ul class="service__list">
+                <li class="service__item card">
+                    <div class="card__img">
+                        <img src="https://pon-design.netlify.app/img/service01.jpg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Webサイト制作</h3>
+                        <p class="card__text">
+                            新規サイトはもちろん、サイトリニューアルやランディングページ制作も行っております。
+                        </p>
+                    </div>
+                </li>
+
+                <li class="service__item card">
+                    <div class="card__img">
+                        <img src="https://pon-design.netlify.app/img/service02.jpg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Webサイト制作</h3>
+                        <p class="card__text">
+                            サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案が可能です。
+                        </p>
+                    </div>
+                </li>
+
+                <li class="service__item card">
+                    <div class="card__img">
+                        <img src="https://pon-design.netlify.app/img/service03.jpg" alt="">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">アプリ開発</h3>
+                        <p class="card__text">
+                            スマートフォンアプリ開発の他、Vue.jsやReactによるWebアプリの開発が可能です。
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="top-works works">
+        <div class="works__inner inner">
+            <div class="works__content">
+                <div class="works__images">
+                    <div class="swiper js-works-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide works__img">
+                                <img src="https://pon-design.netlify.app/img/works/lamina.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide works__img">
+                                <img src="https://pon-design.netlify.app/img/works/smoothiesta.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide works__img">
+                                <img src="https://pon-design.netlify.app/img/works/web-conference.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination js-works-pagination"></div>
+                </div>
+
+
+
+                <div class="works__text-body">
+                    <div class="works__title section-header">
+                        <h2 class="section-header__title">WORKS</h2>
+                        <p class="section-header__subtitle">制作実績</p>
+                    </div>
+                    <div class="works__text-block">
+                        <p class="works__text">
+                            様々なジャンルのWebサイト制作が可能です。<br>ご購入やお申込み数の増加などを実現します！
+                        </p>
+                    </div>
+                    <div class="works__btn">
+                        <a href="" class="button">more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="top-recruit recruit">
+        <div class="recruit__inner inner">
+            <div class="recruit__img">
+                <img src="https://pon-design.netlify.app/img/recruit.jpg" alt="">
+            </div>
+            
+            <div class="recruit__contents">
+                <div class="recruit__title section-header">
+                    <h2 class="section-header__title">RECRUIT</h2>
+                    <p class="section-header__subtitle">採用情報</p>
+                </div>
+                <div class="recruit__text-block">
+                    <p class="recruit__text">私たちと一緒に働きませんか？</p>
+                </div>
+                <div class="recruit__btn">
+                    <a href="" class="button">more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="top-contact contact">
+        <div class="reucuit__inner inner">
+            <div class="reucuit__title section-header">
+                <h2 class="section-header__title">CONTACT</h2>
+                <p class="section-header__subtitle">お問い合わせ</p>
+            </div>
+            <div class="contact__contents">
+                <div class="contact__text-block">
+                    <p class="contact__text">
+                        Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。
+                    </p>
+                </div>
+                <div class="contact__btn">
+                    <a href="" class="button">more</a>
+                </div>
+            </div>
+        </div>
+    </section>
     
    
-    
-
-
-
-
-
-
-
-
-    <div class="section-header">
-        <h2 class="section-header__title">contact</h2>
-        <p class="section-header__subtitle">お問い合わせ</p>
-    </div>
-
-
-    <a href="" class="button">more</a>
-
 
     <footer class="top-footer footer">
         <div class="footer__inner">

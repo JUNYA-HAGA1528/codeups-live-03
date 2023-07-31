@@ -1,0 +1,22 @@
+@use "global" as *;
+
+.contact{
+    padding: rem(60) 0 ;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.contact__text-block{
+    margin-top: rem(30);
+}
+
+.contact__text{
+    font-size: rem(14);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.79;
+}
+
+.contact__btn{
+    margin-top: rem(30);
+}

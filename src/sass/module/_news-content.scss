@@ -1,0 +1,36 @@
+@use "global" as *;
+
+.news-content{
+
+}
+
+.news-content__meta{
+    display: flex;
+    align-items: center;
+}
+
+.news-content__date{
+    color: $black;
+    font-size: rem(15);
+    letter-spacing: 0.1em;
+}
+
+.news-content__category{
+    font-size: rem(11);
+    font-weight: $bold;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    border-radius: rem(50);
+    padding: rem(4) rem(18);
+    background-color: #E8E8E8;
+    margin-left: rem(15);
+}
+
+.news-content__link{
+    margin-top: rem(10);
+}
+
+.news-content__text{
+    font-size: rem(14);
+    font-weight: 300;
+}
