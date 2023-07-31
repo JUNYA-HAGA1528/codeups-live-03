@@ -13,12 +13,12 @@ $padding-sp: 20px;
 // フォント設定
 ////////////////////
 
-$jp-family: "'Noto Serif JP', serif;";
-$en-family: "'Montserrat', sans-serif;";
+$jp-family: "Noto Serif JP', sans-serif";
+$en-family:  "Montserrat", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 // ※検証ツールでしっかり反映されているか確認する
 
 body {
-  font-family: $jp-family;
+  font-family: $en-family;
 }
 
 // フォントウェイト
