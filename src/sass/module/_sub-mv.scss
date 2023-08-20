@@ -1,0 +1,21 @@
+@use "global" as *;
+
+.sub-mv{
+    height: rem(190);
+    position: relative;
+    background-image: url(https://pon-design.netlify.app/img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include mq(md){
+        height: rem(240);
+    }
+}
+
+.sub-mv__title{
+    padding-top: rem(94);
+}
+
+.section-header--white{
+    color: $white;
+}

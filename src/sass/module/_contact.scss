@@ -4,6 +4,9 @@
     padding: rem(60) 0 ;
     text-align: center;
     background-color: #F7F7F7;
+    @include mq(md){
+        padding: rem(80) 0;
+    }
 }
 
 .contact__text-block{

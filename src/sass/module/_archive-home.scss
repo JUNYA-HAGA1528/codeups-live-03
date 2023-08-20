@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.archive-home__item:not(:first-child){
+    margin-top: rem(32);
+    @include mq(md){
+        margin-top: rem(15);
+    }
+}
+
+.archive-home__inner.inner{
+    max-width: rem(965);
+    width: 100%;
+    margin: auto;
+}

@@ -1,0 +1,33 @@
+@use "global" as *;
+
+.wp-pagenavi {
+	display: flex;
+    justify-content: center;
+	text-align:center;
+    gap: rem(10);
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: rem(45);
+    height: rem(45);
+    line-height: 2.15;
+    border-radius: 50%;
+    background-color: #7633A4;
+    color: #fff;
+    font-size: rem(20);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.wp-pagenavi a:hover{
+    background-color: #f1ebf8;
+    color: #4F31A5;
+}
+
+.wp-pagenavi span.current{
+    background-color: #f1ebf8;
+    color: #4F31A5;
+}

@@ -1,13 +1,25 @@
 @use "global" as *;
 
-.footer-nav{
-
+.footer{
+    background-color: $bg-black;
+    padding: rem(60) 0 rem(20);
+    @include mq(md){
+        padding: rem(60) 0;
+    }
 }
 
-.footer-nav__list{
+.footer__inner{
+    padding: 0 rem(30);
+    margin: auto;
+}
+
+.footer-nav__items{
     display: flex;
     flex-wrap: wrap;
     gap: rem(20);
+    @include mq(md){
+        justify-content: center;
+    }
 }
 
 .footer-nav__item a{
