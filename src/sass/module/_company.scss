@@ -1,0 +1,42 @@
+@use "global" as *;
+
+.company__message{
+    @include mq(md){
+        display: flex;
+        gap: rem(50);
+    }
+}
+
+.company__message-image{
+    @include mq(md){
+        max-width: rem(445);
+        width: 100%;
+    }
+}
+
+.company__message-image img{
+    aspect-ratio: 335/248;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include mq(md){
+        aspect-ratio: 445/330;
+    }
+}
+
+.company__message-text{
+    margin-top: rem(30);
+    font-size: rem(14);
+    line-height: calc(24/14);
+    letter-spacing: 0.05em;
+    @include mq(md){
+        margin-top: rem(0);
+        max-width: rem(605);
+        width: 100%;
+        font-size: rem(15);
+    }
+}
+
+.company__message-text p:not(:first-child){
+    margin-top: rem(30);
+}

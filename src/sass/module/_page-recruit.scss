@@ -1,0 +1,102 @@
+@use "global" as *;
+
+.page-recruit{
+    padding-top: rem(116);
+    padding-bottom: rem(110);
+    background-image: url(https://pon-design.netlify.app/img/bg-geometry.png);
+    background-repeat: repeat;
+}
+
+.page-recruit__title{
+    text-align: center;
+    color: #391E88;
+}
+
+.page-recruit__main{
+    font-size:rem(48);
+    line-height: calc(56/48);
+    letter-spacing: 0.01em;
+    @include mq(md){
+        font-size: rem(72);
+    }
+}
+
+.page-recruit__sub{
+    margin-top: rem(15);
+    font-size: rem(18);
+    letter-spacing: 0.05em;
+    @include mq(md){
+        font-size: rem(32);
+    }
+}
+
+.page-recruit__text{
+    text-align: center;
+    margin-top: rem(25);
+    font-size: rem(15);
+    line-height: calc(27/15);
+    @include mq(md){
+        font-size: rem(16);
+    }
+}
+
+.page-recruit__image{
+    margin-top: rem(40);
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.page-recruit__recruit{
+    margin-top: rem(40);
+    @include mq(md){
+        margin-top: rem(70);
+    }
+}
+
+.page-recruit__items{
+    margin-top: rem(30);
+}
+
+.page-recruit__item{
+    background-color: #fff;
+    border: solid 1px #B8AED5;
+    border-radius: rem(10);
+    padding: rem(30) rem(20);
+}
+
+.page-recruit__item:not(:first-child){
+    margin-top: rem(40);
+}
+
+.page-recruit__job-title{
+    text-align: center;
+    font-size: rem(16);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #391E88;
+    @include mq(md){
+        font-size: rem(24);
+    }
+}
+
+.page-recruit__lists{
+    margin-top: rem(15);
+}
+
+.page-recruit__apply{
+    text-align: center;
+    margin-top: rem(40);
+}
+
+.page-recruit__apply p{
+    margin-top: rem(10);
+    font-size: rem(12);
+}
+
+.page-recruit__movies{
+    margin-top: rem(80);
+    @include mq(md){
+        margin-top: rem(140);
+    }
+    
+}

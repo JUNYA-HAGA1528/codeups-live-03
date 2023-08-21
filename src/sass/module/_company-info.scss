@@ -1,0 +1,49 @@
+@use "global" as *;
+
+
+.company-info__text{
+    color: #391E88;
+    text-align: center;
+    font-size: rem(24);
+    font-weight: bold;
+    line-height: 1.5;
+    @include mq(md){
+        font-size: rem(32);
+    }
+}
+
+.company-info__items{
+    margin-top: rem(30);
+}
+
+.company-info__map{
+    margin-top: rem(40);
+    @include mq(md){
+        margin-top: rem(60);
+    }
+}
+
+.company-info__map iframe{
+    aspect-ratio: 335/240;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include mq(md){
+        aspect-ratio: 1110/394;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.company-info__map-l{
+    margin-top: rem(10);
+}
+
+.company-info__map-l a {
+    font-size: rem(14);
+    letter-spacing: 0.05em;
+    @include mq(md){
+        font-size: rem(16);
+    }
+}
