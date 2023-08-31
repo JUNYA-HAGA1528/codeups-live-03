@@ -1,0 +1,40 @@
+@use "global" as *;
+
+.archive-works{
+
+}
+
+.archive-works__inner.inner{
+    padding: 0 rem(15);
+}
+
+.archive-works__items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: rem(40);
+    @include mq(md){
+        grid-template-columns: repeat(3,1fr);
+        gap: rem(28) rem(30);
+    }
+}
+
+.archive-works__image img{
+    aspect-ratio: 345/235;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include mq(md){
+        aspect-ratio: 350/238;
+    }
+}
+
+.archive-works__title{
+    margin-top: rem(15);
+}
+
+.archive-works__name{
+    text-align: center;
+    font-size: rem(16);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
